@@ -1,2 +1,2 @@
 # gestionale-negozio
-Progetto finale del corso di programmazione in Python di ProfessionAI: software gestionale di un negozio di alimentari.
+Progetto finale del corso in Python all'interno del Data Science Professional Path di ProfessionAI: software gestionale di un negozio di alimentari.
