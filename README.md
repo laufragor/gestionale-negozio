@@ -1,17 +1,30 @@
 # Software gestionale di un negozio di alimentari
-Progetto finale del corso in Python all'interno del Data Science Professional Path di ProfessionAI.<br><br>
+Progetto finale del corso in Python all'interno del Data Science Professional Path di ProfessionAI.  
 
+Il software gestionale deve avere le seguenti funzionalità:
+* Registrare nuovi prodotti, con nome, quantità, prezzo di vendita e prezzo di acquisto
+* Elencare tutti i prodotti presenti
+* Registrare le vendite effettuate
+* Mostrare i profitti lordi e netti
+* Mostrare un menu di aiuto con tutti i comandi disponibili
+
+
+![img magazzino](warehouse.png)
+
+I comandi disponibili sono i seguenti:
+* **aggiungi**: aggiungi un prodotto al magazzino
+* **elenca**: elenca i prodotti in magazzino
+* **vendita**: registra una vendita effettuata
+* **profitti**: mostra i profitti totali
+* **aiuto**: mostra i possibili comandi
+* **chiudi**: esci dal programma
+
+Il programma è persistente e crea i file `stock.csv` e `balance.txt` per tenere traccia rispettivamente dei prodotti in magazzino e dei profitti. Inoltre ci si assicura che gli input inseriti dall'utente siano validi, ad esempio che i numeri siano effettivamente numeri, e vengono gestiti i casi non validi con eccezioni e messagi di errore.
 
 ### Esempio di interazione
 
 ```
-I comandi disponibili sono i seguenti:
-- aggiungi: aggiungi un prodotto al magazzino
-- elenca: elenca i prodotto in magazzino
-- vendita: registra una vendita effettuata
-- profitti: mostra i profitti totali
-- aiuto: mostra i possibili comandi
-- chiudi: esci dal programma
+
 
 Inserisci un comando: aggiungi
 Nome del prodotto: latte
